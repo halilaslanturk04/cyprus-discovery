@@ -1536,7 +1536,7 @@ const places = [
 // Aspava
 {
   id: 136,
-  placeId: "ChIJuSwcPwC33xQRx6qJGiG",
+  placeId: "ChIJuSwcPwC33xQRx6qJGiG-7AE",
   region: "İskele",
   categories: [
     { category: "yemek", subCategories: "restoran" }
