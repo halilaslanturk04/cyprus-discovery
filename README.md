@@ -57,3 +57,8 @@ The app uses Google Places API to show real place information such as:
 - Turkish / English support
 - Loading and error states
 - Google Maps redirect
+
+
+## Live Demo 
+
+https://cyprus-discovery-nu.vercel.app/
