@@ -1454,7 +1454,7 @@ const places = [
 },
 
 // =========================
-// İSKELE - KAHVALTI
+// İSKELE
 // =========================
 
 // Cafe Paris - Kahvaltı + Kahve & Tatlı
@@ -1479,8 +1479,7 @@ const places = [
   ]
 },
 
-// Pera
-// Kahvaltı + Restoran + Beach Club + Gece Kulübü
+// Pera - Kahvaltı + Restoran + Beach Club + Gece Kulübü
 {
   id: 131,
   placeId: "ChIJJYG6pNWx3xQRuOvv8ZahNNI",
@@ -1514,11 +1513,6 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - RESTORAN
-// =========================
-
 // Caleo
 {
   id: 134,
@@ -1529,9 +1523,19 @@ const places = [
   ]
 },
 
-// Aspava
+// Courtyard
 {
   id: 135,
+  placeId: "ChIJq4VhCb-x3xQR_Y_a-6voXD4",
+  region: "İskele",
+  categories: [
+    { category: "yemek", subCategories: "restoran" }
+  ]
+},
+
+// Aspava
+{
+  id: 136,
   placeId: "ChIJuSwcPwC33xQRx6qJGiG",
   region: "İskele",
   categories: [
@@ -1541,7 +1545,7 @@ const places = [
 
 // Seasons
 {
-  id: 136,
+  id: 137,
   placeId: "ChIJo5FRAP6v3xQRW7L-nTBw1eM",
   region: "İskele",
   categories: [
@@ -1549,15 +1553,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - MEYHANE
-// Yemek + Eğlence ortak
-// =========================
-
-// Körfez
+// Körfez - Yemek + Eğlence Meyhane
 {
-  id: 137,
+  id: 138,
   placeId: "ChIJ6eSvG76v3xQRPQoWyEFz_QE",
   region: "İskele",
   categories: [
@@ -1568,7 +1566,7 @@ const places = [
 
 // Kıyı
 {
-  id: 138,
+  id: 139,
   placeId: "ChIJDc95kMav3xQRnPy207D324Q",
   region: "İskele",
   categories: [
@@ -1579,7 +1577,7 @@ const places = [
 
 // Agora
 {
-  id: 139,
+  id: 140,
   placeId: "ChIJNXAtmeGx3xQRNbfoLxI8rCI",
   region: "İskele",
   categories: [
@@ -1590,7 +1588,7 @@ const places = [
 
 // İskele Balık
 {
-  id: 140,
+  id: 141,
   placeId: "ChIJU9Hh3Syw3xQRBoonUtUmLzw",
   region: "İskele",
   categories: [
@@ -1599,14 +1597,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - FAST FOOD
-// =========================
-
 // Epic
 {
-  id: 141,
+  id: 142,
   placeId: "ChIJA-Kp_5qx3xQR9nPC_l9N3ko",
   region: "İskele",
   categories: [
@@ -1616,7 +1609,7 @@ const places = [
 
 // Hungry House
 {
-  id: 142,
+  id: 143,
   placeId: "ChIJwaFSWBWx3xQR7Ocg-XkvKoY",
   region: "İskele",
   categories: [
@@ -1626,7 +1619,7 @@ const places = [
 
 // Pide City
 {
-  id: 143,
+  id: 144,
   placeId: "ChIJ22iZ3xCx3xQRPu2Ug3zenfI",
   region: "İskele",
   categories: [
@@ -1636,7 +1629,7 @@ const places = [
 
 // Sushinn
 {
-  id: 144,
+  id: 145,
   placeId: "ChIJDbK3IoCx3xQRMKEytm5p3T0",
   region: "İskele",
   categories: [
@@ -1644,14 +1637,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - HALK PLAJI
-// =========================
-
 // İskele Mackenzie
 {
-  id: 145,
+  id: 146,
   placeId: "ChIJceXirfex3xQR3pGhvcnplPE",
   region: "İskele",
   categories: [
@@ -1661,7 +1649,7 @@ const places = [
 
 // Altınkum
 {
-  id: 146,
+  id: 147,
   placeId: "ChIJ3fVgU9KgIBURjgORqxMI_V4",
   region: "İskele",
   categories: [
@@ -1669,14 +1657,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - BEACH CLUB
-// =========================
-
 // Lush
 {
-  id: 147,
+  id: 148,
   placeId: "ChIJkb5jdfWx3xQRHFYmr8EorRQ",
   region: "İskele",
   categories: [
@@ -1686,7 +1669,7 @@ const places = [
 
 // Ayfilon
 {
-  id: 148,
+  id: 149,
   placeId: "ChIJnVHp1kBd3xQRmb0zrFzX5Og",
   region: "İskele",
   categories: [
@@ -1694,14 +1677,19 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - TARİH & KÜLTÜR
-// =========================
+// Aura
+{
+  id: 150,
+  placeId: "ChIJHRnI5Ty33xQR5v8hO1z8wt0",
+  region: "İskele",
+  categories: [
+    { category: "deniz", subCategories: "beach club" }
+  ]
+},
 
 // Salamis
 {
-  id: 149,
+  id: 151,
   placeId: "ChIJgQ-zjNG33xQR4MZD7icLc8Q",
   region: "İskele",
   categories: [
@@ -1711,7 +1699,7 @@ const places = [
 
 // İskele Arkeoloji
 {
-  id: 150,
+  id: 152,
   placeId: "ChIJffsGQsyx3xQRcpvOuKBImZc",
   region: "İskele",
   categories: [
@@ -1719,14 +1707,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - DOĞA & MANZARA
-// =========================
-
 // Boğaz Limanı
 {
-  id: 151,
+  id: 153,
   placeId: "ChIJa5F0Oaev3xQRRQ5UAzclNuE",
   region: "İskele",
   categories: [
@@ -1736,7 +1719,7 @@ const places = [
 
 // Kantara Kalesi
 {
-  id: 152,
+  id: 154,
   placeId: "ChIJLWaLvgSp3xQRvXYN24Hwljg",
   region: "İskele",
   categories: [
@@ -1746,7 +1729,7 @@ const places = [
 
 // Long Beach
 {
-  id: 153,
+  id: 155,
   placeId: "ChIJe3TljEKx3xQRILJQhIYtLU8",
   region: "İskele",
   categories: [
@@ -1754,14 +1737,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - GECE KULÜBÜ
-// =========================
-
 // Sky Lounge - Gece Kulübü + Bar & Pub
 {
-  id: 154,
+  id: 156,
   placeId: "ChIJgeT5fQCx3xQRIYJgntg4gos",
   region: "İskele",
   categories: [
@@ -1770,14 +1748,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - BAR & PUB
-// =========================
-
 // Locale Bar
 {
-  id: 155,
+  id: 157,
   placeId: "ChIJSxB6vc2x3xQRsnyB-_kwyKw",
   region: "İskele",
   categories: [
@@ -1787,7 +1760,7 @@ const places = [
 
 // Fogo
 {
-  id: 156,
+  id: 158,
   placeId: "ChIJm79WGACx3xQRDKyZJr0aH3s",
   region: "İskele",
   categories: [
@@ -1797,7 +1770,7 @@ const places = [
 
 // Crows
 {
-  id: 157,
+  id: 159,
   placeId: "ChIJfXLvTACx3xQR4FdVkr-2OPs",
   region: "İskele",
   categories: [
@@ -1807,7 +1780,7 @@ const places = [
 
 // Lucca
 {
-  id: 158,
+  id: 160,
   placeId: "ChIJ83Oi13Cx3xQRxB6KfvkLvTI",
   region: "İskele",
   categories: [
@@ -1817,7 +1790,7 @@ const places = [
 
 // Hurma
 {
-  id: 159,
+  id: 161,
   placeId: "ChIJM3oR02Gx3xQRf-ZvKVHzgz4",
   region: "İskele",
   categories: [
@@ -1825,14 +1798,9 @@ const places = [
   ]
 },
 
-
-// =========================
-// İSKELE - KAHVE & TATLI
-// =========================
-
 // Roots
 {
-  id: 160,
+  id: 162,
   placeId: "ChIJ__ME6Oa33xQRU_LdshGEXHQ",
   region: "İskele",
   categories: [
@@ -1842,7 +1810,7 @@ const places = [
 
 // Vola
 {
-  id: 161,
+  id: 163,
   placeId: "ChIJXVaF7Mm33xQRvD4nWzMM-CM",
   region: "İskele",
   categories: [
@@ -1852,7 +1820,7 @@ const places = [
 
 // Zagidas
 {
-  id: 162,
+  id: 164,
   placeId: "ChIJHSWKCzax3xQRYkSc21eaYQY",
   region: "İskele",
   categories: [
@@ -1862,7 +1830,7 @@ const places = [
 
 // Petek
 {
-  id: 163,
+  id: 165,
   placeId: "ChIJHWXwqcmx3xQR81OVzD7yaZU",
   region: "İskele",
   categories: [
@@ -1872,385 +1840,13 @@ const places = [
 
 // Çikolata Evim
 {
-  id: 164,
+  id: 166,
   placeId: "ChIJQ6XhZKqx3xQRgbRxwb3fgo8",
   region: "İskele",
   categories: [
     { category: "kahvetatlı" }
   ]
-},
-
-// =========================
-// İSKELE - KAHVALTI
-// =========================
-
-// Cafe Paris - Kahvaltı + Kahve & Tatlı
-{
-  id: 129,
-  placeId: "ChIJx-d3IXWx3xQRrIJfr5__KqA",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "kahvaltı" },
-    { category: "kahvetatlı" }
-  ]
-},
-
-// The Hunger - Kahvaltı + Restoran
-{
-  id: 130,
-  placeId: "ChIJLxXkkxSx3xQRbbrbQ1_ShjM",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "kahvaltı" },
-    { category: "yemek", subCategories: "restoran" }
-  ]
-},
-
-// Pera
-// Kahvaltı + Restoran + Beach Club + Gece Kulübü
-{
-  id: 131,
-  placeId: "ChIJJYG6pNWx3xQRuOvv8ZahNNI",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "kahvaltı" },
-    { category: "yemek", subCategories: "restoran" },
-    { category: "deniz", subCategories: "beach club" },
-    { category: "eğlence", subCategories: "gece kulübü" }
-  ]
-},
-
-// Blance
-{
-  id: 132,
-  placeId: "ChIJzVSbJwCx3xQRTsVJ7psRaW0",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "kahvaltı" }
-  ]
-},
-
-// Narin - Kahvaltı + Kahve & Tatlı
-{
-  id: 133,
-  placeId: "ChIJfQLcFP2x3xQRtPCR_eDxBy0",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "kahvaltı" },
-    { category: "kahvetatlı" }
-  ]
-},
-
-
-// =========================
-// İSKELE - RESTORAN
-// =========================
-
-// Caleo
-{
-  id: 134,
-  placeId: "ChIJTxuOU9mx3xQRxGWdSW9INXg",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "restoran" }
-  ]
-},
-
-// Aspava
-{
-  id: 135,
-  placeId: "ChIJuSwcPwC33xQRx6qJGiG",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "restoran" }
-  ]
-},
-
-// Seasons
-{
-  id: 136,
-  placeId: "ChIJo5FRAP6v3xQRW7L-nTBw1eM",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "restoran" }
-  ]
-},
-
-
-// =========================
-// İSKELE - MEYHANE
-// Yemek + Eğlence ortak
-// =========================
-
-// Körfez
-{
-  id: 137,
-  placeId: "ChIJ6eSvG76v3xQRPQoWyEFz_QE",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "meyhane" },
-    { category: "eğlence", subCategories: "meyhane" }
-  ]
-},
-
-// Kıyı
-{
-  id: 138,
-  placeId: "ChIJDc95kMav3xQRnPy207D324Q",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "meyhane" },
-    { category: "eğlence", subCategories: "meyhane" }
-  ]
-},
-
-// Agora
-{
-  id: 139,
-  placeId: "ChIJNXAtmeGx3xQRNbfoLxI8rCI",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "meyhane" },
-    { category: "eğlence", subCategories: "meyhane" }
-  ]
-},
-
-// İskele Balık
-{
-  id: 140,
-  placeId: "ChIJU9Hh3Syw3xQRBoonUtUmLzw",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "meyhane" },
-    { category: "eğlence", subCategories: "meyhane" }
-  ]
-},
-
-
-// =========================
-// İSKELE - FAST FOOD
-// =========================
-
-// Epic
-{
-  id: 141,
-  placeId: "ChIJA-Kp_5qx3xQR9nPC_l9N3ko",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "fast-food" }
-  ]
-},
-
-// Hungry House
-{
-  id: 142,
-  placeId: "ChIJwaFSWBWx3xQR7Ocg-XkvKoY",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "fast-food" }
-  ]
-},
-
-// Pide City
-{
-  id: 143,
-  placeId: "ChIJ22iZ3xCx3xQRPu2Ug3zenfI",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "fast-food" }
-  ]
-},
-
-// Sushinn
-{
-  id: 144,
-  placeId: "ChIJDbK3IoCx3xQRMKEytm5p3T0",
-  region: "İskele",
-  categories: [
-    { category: "yemek", subCategories: "fast-food" }
-  ]
-},
-
-
-// =========================
-// İSKELE - HALK PLAJI
-// =========================
-
-// İskele Mackenzie
-{
-  id: 145,
-  placeId: "ChIJceXirfex3xQR3pGhvcnplPE",
-  region: "İskele",
-  categories: [
-    { category: "deniz", subCategories: "halk plajı" }
-  ]
-},
-
-// Altınkum
-{
-  id: 146,
-  placeId: "ChIJ3fVgU9KgIBURjgORqxMI_V4",
-  region: "İskele",
-  categories: [
-    { category: "deniz", subCategories: "halk plajı" }
-  ]
-},
-
-
-// =========================
-// İSKELE - BEACH CLUB
-// =========================
-
-// Lush
-{
-  id: 147,
-  placeId: "ChIJkb5jdfWx3xQRHFYmr8EorRQ",
-  region: "İskele",
-  categories: [
-    { category: "deniz", subCategories: "beach club" }
-  ]
-},
-
-// Ayfilon
-{
-  id: 148,
-  placeId: "ChIJnVHp1kBd3xQRmb0zrFzX5Og",
-  region: "İskele",
-  categories: [
-    { category: "deniz", subCategories: "beach club" }
-  ]
-},
-
-
-// =========================
-// İSKELE - TARİH & KÜLTÜR
-// =========================
-
-// Salamis
-{
-  id: 149,
-  placeId: "ChIJgQ-zjNG33xQR4MZD7icLc8Q",
-  region: "İskele",
-  categories: [
-    { category: "gezi", subCategories: "tarih&kültür" }
-  ]
-},
-
-// İskele Arkeoloji
-{
-  id: 150,
-  placeId: "ChIJffsGQsyx3xQRcpvOuKBImZc",
-  region: "İskele",
-  categories: [
-    { category: "gezi", subCategories: "tarih&kültür" }
-  ]
-},
-
-
-// =========================
-// İSKELE - DOĞA & MANZARA
-// =========================
-
-// Boğaz Limanı
-{
-  id: 151,
-  placeId: "ChIJa5F0Oaev3xQRRQ5UAzclNuE",
-  region: "İskele",
-  categories: [
-    { category: "gezi", subCategories: "doğa&manzara" }
-  ]
-},
-
-// Kantara Kalesi
-{
-  id: 152,
-  placeId: "ChIJLWaLvgSp3xQRvXYN24Hwljg",
-  region: "İskele",
-  categories: [
-    { category: "gezi", subCategories: "doğa&manzara" }
-  ]
-},
-
-// Long Beach
-{
-  id: 153,
-  placeId: "ChIJe3TljEKx3xQRILJQhIYtLU8",
-  region: "İskele",
-  categories: [
-    { category: "gezi", subCategories: "doğa&manzara" }
-  ]
-},
-
-
-// =========================
-// İSKELE - GECE KULÜBÜ
-// =========================
-
-// Sky Lounge - Gece Kulübü + Bar & Pub
-{
-  id: 154,
-  placeId: "ChIJgeT5fQCx3xQRIYJgntg4gos",
-  region: "İskele",
-  categories: [
-    { category: "eğlence", subCategories: "gece kulübü" },
-    { category: "eğlence", subCategories: "bar & pub" }
-  ]
-},
-
-
-// =========================
-// İSKELE - BAR & PUB
-// =========================
-
-// Locale Bar
-{
-  id: 155,
-  placeId: "ChIJSxB6vc2x3xQRsnyB-_kwyKw",
-  region: "İskele",
-  categories: [
-    { category: "eğlence", subCategories: "bar & pub" }
-  ]
-},
-
-// Fogo
-{
-  id: 156,
-  placeId: "ChIJm79WGACx3xQRDKyZJr0aH3s",
-  region: "İskele",
-  categories: [
-    { category: "eğlence", subCategories: "bar & pub" }
-  ]
-},
-
-// Crows
-{
-  id: 157,
-  placeId: "ChIJfXLvTACx3xQR4FdVkr-2OPs",
-  region: "İskele",
-  categories: [
-    { category: "eğlence", subCategories: "bar & pub" }
-  ]
-},
-
-// Lucca
-{
-  id: 158,
-  placeId: "ChIJ83Oi13Cx3xQRxB6KfvkLvTI",
-  region: "İskele",
-  categories: [
-    { category: "eğlence", subCategories: "bar & pub" }
-  ]
-},
-
-// Hurma
-{
-  id: 159,
-  placeId: "ChIJM3oR02Gx3xQRf-ZvKVHzgz4",
-  region: "İskele",
-  categories: [
-    { category: "eğlence", subCategories: "bar & pub" }
-  ]
-},
+}
 ]
 
 export default places;
