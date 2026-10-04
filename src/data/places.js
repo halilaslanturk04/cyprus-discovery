@@ -2251,61 +2251,6 @@ const places = [
     { category: "eğlence", subCategories: "bar & pub" }
   ]
 },
-
-
-// =========================
-// İSKELE - KAHVE & TATLI
-// =========================
-
-// Roots
-{
-  id: 160,
-  placeId: "ChIJ__ME6Oa33xQRU_LdshGEXHQ",
-  region: "İskele",
-  categories: [
-    { category: "kahvetatlı" }
-  ]
-},
-
-// Vola
-{
-  id: 161,
-  placeId: "ChIJXVaF7Mm33xQRvD4nWzMM-CM",
-  region: "İskele",
-  categories: [
-    { category: "kahvetatlı" }
-  ]
-},
-
-// Zagidas
-{
-  id: 162,
-  placeId: "ChIJHSWKCzax3xQRYkSc21eaYQY",
-  region: "İskele",
-  categories: [
-    { category: "kahvetatlı" }
-  ]
-},
-
-// Petek
-{
-  id: 163,
-  placeId: "ChIJHWXwqcmx3xQR81OVzD7yaZU",
-  region: "İskele",
-  categories: [
-    { category: "kahvetatlı" }
-  ]
-},
-
-// Çikolata Evim
-{
-  id: 164,
-  placeId: "ChIJQ6XhZKqx3xQRgbRxwb3fgo8",
-  region: "İskele",
-  categories: [
-    { category: "kahvetatlı" }
-  ]
-}
 ]
 
 export default places;
