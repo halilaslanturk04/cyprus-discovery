@@ -1,16 +1,59 @@
-# React + Vite
+# Cyprus Discovery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cyprus Discovery is a React project that helps users discover selected places in Northern Cyprus.
 
-Currently, two official plugins are available:
+The app uses Google Places API to show real place information such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Place name
+- Rating
+- Review count
+- Address
+- Photo
+- Google Maps link
 
-## React Compiler
+## Regions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Mağusa
+- Girne
+- Lefkoşa
+- İskele
 
-## Expanding the ESLint configuration
+## Categories
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Food
+  - Breakfast
+  - Restaurant
+  - Meyhane
+  - Fast Food
+- Sea
+  - Public Beach
+  - Beach Club
+- Explore
+  - History & Culture
+  - Nature & Views
+- Entertainment
+  - Night Club
+  - Bar & Pub
+  - Meyhane
+- Coffee & Dessert
+
+## Technologies
+
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- Google Places API
+- Google Maps JavaScript API
+- Git
+- GitHub
+
+## Main Features
+
+- Region based discovery
+- Category and subcategory filtering
+- Real Google place data
+- Responsive design
+- Turkish / English support
+- Loading and error states
+- Google Maps redirect
